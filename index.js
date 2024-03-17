@@ -4,6 +4,7 @@ const { userRoute } = require("./router/userrouter");
 const { auth } = require("./middleware/authmiddle");
 const { roleroute } = require("./router/roleroute");
 const { access } = require("./middleware/accessmiddle");
+const cors = require('cors');
 require("dotenv").config();
 
 const app = express();
